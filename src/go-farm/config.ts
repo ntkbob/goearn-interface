@@ -10,6 +10,7 @@ export type Configuration = {
   vaults: {[contractName: string]: string};
   MasterChef: string,
   GetApy: string,
+  GetVaultApy: string,
   config?: EthereumConfig,
   refreshInterval: number;
   gasLimitMultiplier: number;

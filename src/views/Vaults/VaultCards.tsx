@@ -97,7 +97,7 @@ const VaultCard: React.FC<VaultCardProps> = ({ vault }) => {
               {/* <StyledDetail>存入 {vault.depositTokenName.toUpperCase()}</StyledDetail>
               <StyledDetail>赚取 {`${vault.depositTokenName}`}</StyledDetail> */}
               <StyledDetail>Apy {getDisplayBalance(vault.apy,18,2)}%</StyledDetail>
-              <StyledDetail>存款额 ${getDisplayBalance(vault.balance,18,0)}</StyledDetail>
+              <StyledDetail>存款额 ${getDisplayBalance(vault.balance,vault.depositToken.decimal,0)}</StyledDetail>
             </StyledDetails>
             <Button text="加入" to={`/vault/${vault.depositTokenName}`} />
           </StyledContent>
