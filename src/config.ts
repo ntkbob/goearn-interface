@@ -9,7 +9,7 @@ const configurations: { [env: string]: Configuration } = {
     defaultProvider: 'https://http-testnet.hecochain.com',
     MasterChef: '0xC9FAA89989bd6562dbc67f34F825028A79f4f1B1',
     GetApy: '0x0462d64E23CDA9A5ECEE2896356875B8d3B81fD9',
-    GetVaultApy: '0x2088bFEA5690Bf9a5Bc2ba1f9789c7173d37025B',
+    GetVaultApy: '0xaE3a4402B987Ad29D5e7F17Bbb4fD22a713f7DaE',
     deployments: require('./go-farm/deployments/deployments.testnet.json'),
     externalTokens: {
       GOT: ['0xA7d5b5Dbc29ddef9871333AD2295B2E7D6F12391', 18],
@@ -52,7 +52,7 @@ const configurations: { [env: string]: Configuration } = {
     defaultProvider: 'https://http-mainnet.huobichain.com',
     MasterChef: '0x7dCeBC34F55b52df742C91581089ebD0BCBD254F',
     GetApy: '0xE453Fd8FF38b46fBda57f236103f6336CBf50594',
-    GetVaultApy: '0x2088bFEA5690Bf9a5Bc2ba1f9789c7173d37025B',
+    GetVaultApy: '0xaE3a4402B987Ad29D5e7F17Bbb4fD22a713f7DaE',
     deployments: require('./go-farm/deployments/deployments.mainnet.json'),
     externalTokens: {
       GOT: ['0xA7d5b5Dbc29ddef9871333AD2295B2E7D6F12391', 18],
